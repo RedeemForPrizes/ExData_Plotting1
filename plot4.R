@@ -66,7 +66,7 @@ x <- myData2$DateTimeStamp
 y <- myData2$Global_active_power
 
 # Initiate the plot, then add the lines
-plot(x, y, type="n", xlab="",ylab="Global Active Power (kilowatts)" ) 
+plot(x, y, type="n", xlab="",ylab="Global Active Power" ) 
 lines(x,y)
 
 # Assign the values for the next plot to the x and y variables
