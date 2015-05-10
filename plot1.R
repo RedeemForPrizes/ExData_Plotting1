@@ -20,7 +20,7 @@
 #
 ##########################################################################################################
 
-# Path to the data file. The original file URL can be found in the URL above  
+# Path to the data file. The original file URL can be found above  
 dataFile <- "/Users/hsiewert/Dropbox/Scripts/Scripts_R/rAnProj1/household_power_consumption.txt" 
 
 # Load libraries to be used later
