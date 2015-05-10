@@ -89,7 +89,7 @@ lines(x,y,col="red")
 
 y <- myData2$Sub_metering_3
 lines(x,y,col="blue") 
-legend("topright",lty=c(1,1,1),lwd=c(2.5,2.5,2.5), col = c("black","blue", "red"), legend = c("Sub_metering_1", "Sub_metering_2","Sub_metering_3"),cex=.5)
+legend("topright",lty=c(1,1,1),lwd=c(2.5,2.5,2.5), col = c("black","blue", "red"), legend = c("Sub_metering_1", "Sub_metering_2","Sub_metering_3"),cex=.75, bty = "n")
 
 x <- myData2$DateTimeStamp
 y <- myData2$Global_reactive_power
